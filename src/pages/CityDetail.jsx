@@ -5,8 +5,8 @@ import { getWeatherIcon, getWeatherBackground } from '../tools/utils';
 import cerah from '../assets/img/cerah.jpg';
 
 const API_KEY = '2d1ad83cc2df4995b4b64506242809';
-const BASE_URL = 'http://api.weatherapi.com/v1/current.json';
-const ALERT_URL = 'http://api.weatherapi.com/v1/alerts.json';
+const BASE_URL = 'https://api.weatherapi.com/v1/current.json';
+const ALERT_URL = 'https://api.weatherapi.com/v1/alerts.json';
 
 function CityDetail() {
   const { cityName } = useParams();

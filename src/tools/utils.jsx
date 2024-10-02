@@ -5,7 +5,7 @@ import hujan from '../assets/img/hujan.jpg';
 import mendung from '../assets/img/mendung.jpg';
 
 const API_KEY = '2d1ad83cc2df4995b4b64506242809';
-const BASE_URL = 'http://api.weatherapi.com/v1/current.json';
+const BASE_URL = 'https://api.weatherapi.com/v1/current.json';
 
 
 export function getWeatherIcon(code, isDay) {
