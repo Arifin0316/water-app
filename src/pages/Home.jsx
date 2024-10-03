@@ -51,7 +51,7 @@ function Home() {
   const displayedCities = isMobile ? cities.slice(0, 4) : cities;
 
   return (
-    <section className="h-screen overflow-hidden bg-slate-200">
+    <section className="h-screen overflow-hidden bg-slate-200 pt-12">
       <img src={background} alt="Background" className="absolute inset-0 w-full h-full object-cover" />
       <div className="absolute inset-0 bg-black bg-opacity-40" />
       <div className="relative z-10 flex flex-col items-center pt-10">

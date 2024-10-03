@@ -55,7 +55,7 @@ function CityDetail() {
   if (!cityDetail) return <p className="text-center mt-10 text-lg">Loading...</p>;
 
   return (
-    <div className="container mx-auto p-6 bg-black mb-40">
+    <div className="container mx-auto p-6 bg-black mb-40 mt-20">
       <img src={background} alt="Background" className="absolute inset-0 w-full h-full object-cover" />
       <div className="bg-white bg-opacity-80 backdrop-blur-xl p-8 rounded-lg shadow-lg max-w-4xl mx-auto text-center">
         <h1 className="text-4xl font-bold mb-4 text-indigo-700">

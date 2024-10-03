@@ -1,5 +1,6 @@
 import React from 'react';
-import { FaFacebookF, FaTwitter, FaInstagram, FaEnvelope, FaPhone } from 'react-icons/fa';
+import { FaFacebookF, FaTwitter, FaInstagram, FaEnvelope, FaPhone, FaGithub } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -8,9 +9,9 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
           {/* Kolom 1: Tentang */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Tentang Kami</h3>
+            <h3 className="text-lg font-semibold mb-4">About us</h3>
             <p className="text-sm">
-              ini adalah wesite tentang list anime yang saya sukai jika ada rekomenasi anime yang bagus atau ada kritik dan saran silakan tingalkan pesan di atas
+              ini adalah wesite tentang cuaca kalian bisa cek cuaca di daerah kalian masing masing jikan ada kritik dan saran silakan hubungi melalui link yang di sediakan
             </p>
           </div>
 
@@ -18,10 +19,9 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Tautan Cepat</h3>
             <ul className="space-y-2">
-              <li><a href="#home" className="hover:text-gray-300 transition duration-300">home</a></li>
-              <li><a href="#about" className="hover:text-gray-300 transition duration-300">about</a></li>
-              <li><a href="#anime" className="hover:text-gray-300 transition duration-300">anime</a></li>
-              <li><a href="#contact" className="hover:text-gray-300 transition duration-300">cotact</a></li>
+              <li><Link to={'./'} className="hover:text-gray-300 transition duration-300">Home</Link></li>
+              <li><Link to={'./Radar'} className="hover:text-gray-300 transition duration-300">Radar</Link></li>
+              <li><Link to={'./AboutUs'} className="hover:text-gray-300 transition duration-300">About us</Link></li>
             </ul>
           </div>
 
@@ -42,6 +42,7 @@ const Footer = () => {
               <a href="#" className="hover:text-gray-300 transition duration-300"><FaFacebookF size={24} /></a>
               <a href="#" className="hover:text-gray-300 transition duration-300"><FaTwitter size={24} /></a>
               <a href="https://www.instagram.com/arifin0316" className="hover:text-gray-300 transition duration-300"><FaInstagram size={24} /></a>
+              <a href="#" className="hover:text-gray-300 transition duration-300"><FaGithub size={24} /></a>
             </div>
           </div>
         </div>
