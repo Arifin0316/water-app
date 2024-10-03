@@ -7,3 +7,14 @@
 body {
   font-family: 'poppins'
 }
+  .leaflet-container {
+    background: rgb(243 244 246);
+  }
+  
+  .leaflet-control-zoom {
+    @apply shadow-lg border-2 border-white rounded-lg overflow-hidden;
+  }
+  
+  .leaflet-control-zoom a {
+    @apply bg-white/90 backdrop-blur-sm text-slate-700 hover:bg-slate-100 transition-colors;
+  }
