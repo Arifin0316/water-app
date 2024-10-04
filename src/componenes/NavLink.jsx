@@ -26,7 +26,7 @@ function NavLink({ open, setOpen }) {
     <nav className={`fixed z-50 top-0 left-0 bg-white w-64 h-screen px-4 pt-6 transform transition-transform duration-300 ease-in-out ${open ? 'translate-x-0' : '-translate-x-full'}`}>
       <div className="flex items-center justify-between border-b border-slate-300 pb-4">
         <Link to="/" className="text-2xl text-indigo-800 font-semibold">
-          Logo
+        Weather
         </Link>
         <button onClick={() => setOpen(false)} className="text-4xl text-indigo-800">
           <MdOutlineClose />
