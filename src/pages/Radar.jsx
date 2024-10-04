@@ -32,7 +32,7 @@ const WeatherMap = () => {
   }, []);
 
   return (
-    <div className="w-full p-6 bg-gradient-to-br from-purple-400 via-pink-300 to-blue-400 shadow-lg md:px-12 px-4 backdrop-blur-3xl pt-28 overflow-hidden">
+    <div className="w-full md:h-auto h-screen p-6 bg-gradient-to-br from-purple-400 via-pink-300 to-blue-400 shadow-lg md:px-12 px-4 backdrop-blur-3xl pt-28 overflow-hidden">
       <h2 className="text-2xl font-bold text-slate-800 mb-2">Peta Cuaca Indonesia</h2>
       <p className="text-slate-600 mb-4">Visualisasi cuaca real-time</p>
 
@@ -61,7 +61,7 @@ const WeatherMap = () => {
 
       <ControlsHelp />
 
-      <div className="mt-4 text-sm text-slate-500 text-center">
+      <div className="md:mt-4 mt-20 text-sm text-slate-500 text-center">
         Data disediakan oleh OpenWeatherMap | Peta © OpenStreetMap contributors
       </div>
     </div>

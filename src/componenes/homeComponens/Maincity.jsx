@@ -1,12 +1,28 @@
-import React from 'react';
+import React, { useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { getWeatherIcon } from '../../tools/utils.jsx';
+import { gsap } from 'gsap';
 
 function MainCity({ city }) {
+  const mainCityRef = useRef(null); // Ref untuk elemen yang akan dianimasikan
+  
+
+  useEffect(() => {
+
+    if (mainCityRef.current) {
+      gsap.fromTo(
+        mainCityRef.current,
+        { x: -300, opacity: 0 }, // Mulai dari luar kiri layar
+        { x: 0, opacity: 1, duration: 2, ease: 'power3.out', delay: 0.2 } // Animasi bergerak masuk ke kanan dengan delay
+      );
+    }
+  },[]); 
+
   if (!city) return null;
 
   return (
     <Link
+      ref={mainCityRef}
       to={`/city/${city.name}`}
       className="bg-white bg-opacity-80 backdrop-blur-5xl p-6 rounded-lg shadow-lg max-w-sm w-full hover:bg-indigo-200 transition-colors mt-6 mb:mt-12 lg:mt-0"
     >
