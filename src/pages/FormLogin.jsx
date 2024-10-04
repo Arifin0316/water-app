@@ -38,7 +38,7 @@ const FormLogin = () => {
               id="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="mt-1 w-full px-4 py-2 border bg-red-500 rounded-lg shadow-sm focus:ring focus:ring-blue-300 focus:border-blue-400"
+              className="mt-1 w-full px-4 py-2 border bg-transparent rounded-lg shadow-sm focus:ring focus:ring-blue-300 focus:border-blue-400"
               placeholder="Masukkan email"
             />
           </div>
@@ -50,7 +50,7 @@ const FormLogin = () => {
               id="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
-              className="mt-1 w-full px-4 py-2 border rounded-lg shadow-sm focus:ring focus:ring-blue-300 focus:border-blue-400"
+              className="mt-1 w-full px-4 py-2 border rounded-lg bg-transparent shadow-sm focus:ring focus:ring-blue-300 focus:border-blue-400"
               placeholder="Masukkan password"
             />
           </div>
