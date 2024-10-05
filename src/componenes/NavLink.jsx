@@ -28,7 +28,7 @@ function NavLink({ open, setOpen }) {
         <Link to="/" className="text-2xl text-indigo-800 font-semibold">
         Weather
         </Link>
-        <button onClick={() => setOpen(false)} className="text-4xl text-indigo-800">
+        <button onClick={() => setOpen(false)} className=" active:scale-90 text-4xl text-indigo-800">
           <MdOutlineClose />
         </button>
       </div>

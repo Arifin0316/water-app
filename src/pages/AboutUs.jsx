@@ -2,7 +2,7 @@ import React from 'react';
 
 const AboutUs = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-green-400 via-blue-300 to-purple-400 p-6">
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-400 via-pink-300 to-blue-400 p-6">
       <div className="bg-white backdrop-blur-xl p-8 rounded-lg shadow-lg w-full max-w-3xl">
         <h2 className="text-3xl font-bold text-center text-indigo-800 mb-6">About Us</h2>
         <p className="text-lg text-slate-700 leading-relaxed mb-4">

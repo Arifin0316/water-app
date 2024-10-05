@@ -10,12 +10,12 @@ function Header() {
     <div className=" w-full fixed top-0 z-50">
       <header className="z-50 sticky w-full top-0 flex justify-between items-center px-12 py-4 ">
         <div className="flex gap-6">
-          <button onClick={() => setOpen(true)} className="text-4xl text-white">
+          <button onClick={() => setOpen(true)} className=" active:scale-90 text-4xl text-white">
             <IoMenuOutline />
           </button>
-          <a href="#" className="text-2xl text-white font-semibold items-center">
+          <Link to={'/'} className="text-2xl text-white font-semibold items-center">
             Weather
-          </a>
+          </Link>
           <NavLink open={open} setOpen={setOpen} />
         </div>
         <div className="flex gap-6">
