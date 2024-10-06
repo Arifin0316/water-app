@@ -4,7 +4,7 @@ import Daftarkota from '../componenes/homeComponens/Daftarkota.jsx';
 import MainCity from '../componenes/homeComponens/Maincity.jsx';
 import SearchForm from '../componenes/homeComponens/SearchForm.jsx';
 
-import cerah from '../assets/img/cerah.jpg';
+import cerah from '../assets/img/cerah.png'
 import { getWeatherBackground, fetchWeather } from '../tools/utils.jsx';
 
 function Home() {

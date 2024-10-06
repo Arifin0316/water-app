@@ -2,7 +2,7 @@ import React, { useEffect, useState, useRef } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { getWeatherIcon, getWeatherBackground } from '../tools/utils';
 import { gsap } from 'gsap';
-import cerah from '../assets/img/cerah.jpg';
+import cerah from '../assets/img/cerah.png'
 
 const API_KEY = '2d1ad83cc2df4995b4b64506242809';
 const BASE_URL = 'https://api.weatherapi.com/v1/current.json';

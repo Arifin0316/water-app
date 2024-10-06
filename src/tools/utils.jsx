@@ -1,6 +1,6 @@
 import { WiDaySunny, WiNightClear, WiCloudy, WiDayCloudy, WiNightAltCloudy, WiRain, WiDayRain, WiNightAltRain, WiThunderstorm, WiSnow, WiDayFog } from 'react-icons/wi';
 
-import cerah from '../assets/img/cerah.jpg';
+import cerah from '../assets/img/cerah.png'
 import hujan from '../assets/img/hujan.jpg';
 import mendung from '../assets/img/mendung.jpg';
 

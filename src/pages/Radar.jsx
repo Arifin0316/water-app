@@ -32,7 +32,7 @@ const WeatherMap = () => {
   }, []);
 
   return (
-    <div className="w-full md:h-auto h-screen p-6 bg-gradient-to-br from-purple-400 via-pink-300 to-blue-400 shadow-lg md:px-12 px-4 backdrop-blur-3xl pt-28 overflow-hidden">
+    <div className="w-full md:h-auto h-screen p-6 bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 shadow-lg md:px-12 px-4 backdrop-blur-3xl pt-28 overflow-hidden">
       <h2 className="text-2xl font-bold text-slate-800 mb-2">Peta Cuaca Indonesia</h2>
       <p className="text-slate-600 mb-4">Visualisasi cuaca real-time</p>
 

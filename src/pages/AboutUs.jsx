@@ -69,7 +69,7 @@ const AboutUs = () => {
   }, []);
 
   return (
-    <div className="min-h-screen pt-20 flex items-center justify-center bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 p-6 overflow-hidden">
+    <div className="min-h-screen pt-20 pb-36 flex items-center justify-center bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 p-6 overflow-hidden">
       <div 
         ref={cardRef}
         className="relative bg-white/90 backdrop-blur-xl p-12 rounded-2xl shadow-2xl w-full max-w-4xl transform hover:scale-[1.02] transition-transform duration-300"
